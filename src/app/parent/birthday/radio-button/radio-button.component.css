@@ -1,0 +1,11 @@
+.radioButtonHolder{
+    padding: 10px;
+    display: inline-block;
+}
+.radioLabel{
+    line-height: 1.5;
+}
+
+.radioInput{
+    line-height: 1.5;
+}

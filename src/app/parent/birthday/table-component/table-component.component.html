@@ -1,0 +1,16 @@
+<div class="tableHolder">
+    <table>
+    <tr>
+        <th birthdayTableRow>Id</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let d of birthdayData">
+        <td>{{d.id}}</td>
+        <td>{{d.firstName+" "+d.lastName}}</td>
+        <td>{{d.email}}</td>
+        <td>{{d.age}}</td>
+    </tr>
+</table>
+</div>

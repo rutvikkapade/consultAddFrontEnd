@@ -1,0 +1,17 @@
+<div class="container">
+    <h4>Currency Converter</h4>
+    <div class="subContainer">
+    <input placeholder="convert from..." class="inputCurrency" type="text" (ngModelChange)="fromTo()" [(ngModel)]="fromAmount" />
+    <select class="selectCurrency"  (ngModelChange)="fromTo()" [(ngModel)]="fromCurr">
+        <option *ngFor="let d of currenCurrency">{{d['currCode']}}</option>
+    </select>
+    </div>
+    <div class="subContainer">
+        <input placeholder="convert to..." class="inputCurrency" (ngModelChange)="toFrom()" type="text" [(ngModel)]="toAmount" />
+        <select class="selectCurrency"  (ngModelChange)="fromTo()" [(ngModel)]="toCurr">
+            <option *ngFor="let d of currenCurrency">{{d['currCode']}}</option>
+        </select>
+    </div>
+   
+</div>
+
