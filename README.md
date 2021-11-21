@@ -1,3 +1,11 @@
+![alt text](https://i.ibb.co/TYFJyY9/image.png)
+
+
+![alt text](https://i.ibb.co/mR4ZNLB/image.png)
+
+
+![alt text](https://i.ibb.co/FKPLgpH/image.png)
+
 # CurrencyConverter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
